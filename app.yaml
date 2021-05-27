@@ -1,0 +1,23 @@
+runtime: php74
+service: admin-panel
+
+env_variables:
+  APP_KEY: base64:z4AYdkLQYy4Nz/1rQz3V+/8q73Y5iB/P4RasFus8l6g=
+  APP_DEBUG: true
+  APP_TIMEZONE: "UTC"
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  APP_SERVICES_CACHE: /tmp/services.php
+  APP_PACKAGES_CACHE: /tmp/packages.php
+  APP_CONFIG_CACHE: /tmp/config.php
+  APP_ROUTES_CACHE: /tmp/routes.php
+  SESSION_DRIVER: cookie
+  DB_CONNECTION: "mysql"
+  DB_PORT: 3306
+  DB_DATABASE: "sehatmentalku"
+  DB_USERNAME: "root"
+  DB_SOCKET: "/cloudsql/b21-cap0035:asia-southeast2:sehatmentalku"
+  DB_PASSWORD: "u49kzHmvHx7LDkBm"
+  FILESYSTEM_DRIVER: gcs
+  GOOGLE_CLOUD_PROJECT_ID: b21-cap0035
+  GOOGLE_CLOUD_STORAGE_BUCKET: b21-cap0035.appspot.com
