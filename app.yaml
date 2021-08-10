@@ -16,8 +16,8 @@ env_variables:
   DB_PORT: 3306
   DB_DATABASE: "sehatmentalku"
   DB_USERNAME: "root"
-  DB_SOCKET: "/cloudsql/b21-cap0035:asia-southeast2:sehatmentalku"
-  DB_PASSWORD: "u49kzHmvHx7LDkBm"
+  DB_SOCKET: "/cloudsql/sehat-mentalku:asia-southeast2:sehat-mentalku-db"
+  DB_PASSWORD: "vdhN10kHr0EAdzkB"
   FILESYSTEM_DRIVER: gcs
-  GOOGLE_CLOUD_PROJECT_ID: b21-cap0035
-  GOOGLE_CLOUD_STORAGE_BUCKET: b21-cap0035.appspot.com
+  GOOGLE_CLOUD_PROJECT_ID: sehat-mentalku
+  GOOGLE_CLOUD_STORAGE_BUCKET: sehat-mentalku-bucket
